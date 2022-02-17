@@ -15,8 +15,8 @@ public class Main {
             return true;
         }
         catch (NumberFormatException e){
-
         }
+
         // checks if the input is a floating point number
         try{
             Double.parseDouble(input);
@@ -27,10 +27,9 @@ public class Main {
             else{
                 System.out.println("'" + input + "' is a floating point number");
             }
-                return true;
+            return true;
         }
         catch (NumberFormatException e){
-
         }
 
         System.out.println("'" + input + "' is not a number");
